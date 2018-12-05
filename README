@@ -1,0 +1,10 @@
+This is a quick simple program to validate sodoku solutions using either multiple threads or proccess written in c.
+
+To compile this program you can run the command
+gcc -pthread -o output mssv.c
+#Only tested on my personal environment
+Then you can run the program using 
+./output sudoku maxwait
+Where maxwait is an integer and sudoku is the name of your sudoku solution.
+The program will not run if you do not provide both arguments.
+
