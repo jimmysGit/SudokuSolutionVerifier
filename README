@@ -1,4 +1,4 @@
-This is a quick simple program to validate sodoku solutions using either multiple threads or proccess written in c.
+This is a quick simple program to validate sudoku solutions using either multiple threads or proccess written in c.
 
 To compile this program you can run the command
 gcc -pthread -o output mssv.c
